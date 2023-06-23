@@ -1,0 +1,228 @@
+body {
+    background-color: #1E1F2F;
+}
+
+.left-content header {
+    /* position & size */
+    position: absolute;
+    width: 91.54px;
+    height: 96px;
+    left: 130px;
+    top: 125px;
+
+    /* borderbox */
+    box-sizing: border-box;
+    border-style: solid;
+
+    /* flexbox */
+    display: flex;
+    flex-shrink: 0;   
+}
+header > .smallwb {
+    /* position & size */
+    width: 31.06px;
+    height: 27.42px;
+    left: 130px;
+    top: 152.42px;
+    background-color: #FFF;
+
+    /* flexbox */
+    flex-shrink: 0;     
+}
+header > .smallrb{
+    /* position & size */
+    width: 60.47px;
+    height: 68.55px;
+    left: 221px;
+    top: 161.07px;
+    background-color: #E82C4F;
+
+    /* flexbox */
+    flex-shrink: 0;     
+}
+.smallrb img {
+    align-self: center;
+}
+header > .warmups {
+    /* position & size */
+    width: 331px;
+    height: 96px;
+    left: 161.07px;
+    top: 221px;
+
+    /* font */
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-size: 96px;
+    line-height: 122.88px;
+    color: #FFFFFF;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;   
+}
+
+.left-content article {
+    /* position & size */
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 130px;
+    top: 301px;
+
+    /* font */
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-size: 156px;
+    line-height: 93.5%;
+    color: #FFFFFF;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-content footer {
+    /* position & size */
+    position: absolute;
+    width: 624px;
+    height: 64px;
+    left: 130px;
+    top: 781px;
+    padding: 8px;
+    gap: 80px;
+    
+    /* borderbox */
+    box-sizing: border-box;
+    border-style: solid;
+    
+    /* flexbox */
+    display: flex;
+    justify-content: flex-start;
+}
+footer > .human {
+    /* position & size */
+    padding: 0px;
+    gap: 20px;
+    width: 264px;
+    height: 48px;
+
+    /* font */
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 40px;
+    text-align: left;
+    white-space: nowrap;
+    color: #FFFFFF;
+
+    /* flexbox */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer > .clock {
+    /* position & size */
+    padding: 0px;
+    gap: 20px;
+    width: 264px;
+    height: 48px;
+
+    /* font */
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 40px;
+    text-align: left;
+    color: #FFFFFF;
+
+    /* flexbox */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+.right-content > .wb {
+    /* position & size */
+    position: absolute;
+    width: 504px;
+    height: 618px;
+    left: 957px;
+    top: 166px;
+
+    /* borderbox */
+    border: 60px solid #FFF;
+    box-sizing: border-box;
+
+    /* flexbox */
+    flex-shrink: 0;
+}
+.right-content > .rb {
+    /* position & size */
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 1089px;
+    top: 305px;
+
+    /* borderbox */
+    border: 40px solid #E82C4F;  
+    box-sizing: border-box;
+
+    /* flexbox */
+    flex-shrink: 0;
+}
+.right-content > .rbwb {
+    /* position & size */
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1169px;
+    top: 385px;
+
+    /* borderbox */
+    border: 20px solid #FFF;  
+    box-sizing: border-box;
+
+    /* flexbox */
+    flex-shrink: 0; 
+}
+.right-content > .bb {
+    /* position & size */
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1089px;
+    top: 585px;
+
+    /* borderbox */
+    border: 20px solid #3256A1;  
+    box-sizing: border-box;
+
+    /* flexbox */
+    flex-shrink: 0;  
+}
+.right-content > .wc {
+    /* position & size */
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1249px;
+    top: 585px;
+    
+    /* borderbox */
+    border: 20px solid #FFF;  
+    box-sizing: border-box;
+    border-radius: 80px;
+    
+    /* flexbox */
+    flex-shrink: 0;  
+}
