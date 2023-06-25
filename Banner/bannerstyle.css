@@ -1,22 +1,64 @@
 body {
-    background-color: #1E1F2F;
+    background-color: #FFFFFF;
+    margin: 0;
 }
 
-.left-content header {
+/* BACKGROUND-CONTENT */
+#background {
     /* position & size */
-    position: absolute;
-    width: 91.54px;
-    height: 96px;
-    left: 130px;
-    top: 125px;
+    /* utk pastikan overflow works, mother of the child perlu position relative */
+    position: relative; 
+    width: 1611px;
+    height: 936px;
 
     /* borderbox */
     box-sizing: border-box;
-    border-style: solid;
+    background-color:  #1E1F2F;
 
     /* flexbox */
     display: flex;
+    overflow: hidden;
+}
+.topb {
+    /* position & size */
+    position: absolute;
+    width: 558px;
+    height: 644px;
+    left: 1169px;
+    top: -179px;
+    
+    /* borderbox */
+    border: 60px solid #48596D;  
+    box-sizing: border-box;
+    
+    /* flexbox */
     flex-shrink: 0;   
+}
+.botb {
+    /* position & size */
+    position: absolute;
+    width: 558px;
+    height: 644px;
+    left: 691px;
+    top: 385px;
+    
+    /* borderbox */
+    border: 60px solid #2D2F48;  
+    box-sizing: border-box;
+    
+    /* flexbox */
+    flex-shrink: 0;   
+}
+
+/* LEFT-CONTENT */
+.left-content header {
+    /* position & size */
+    position: fixed;
+    left: 130px;
+    top: 125px;
+
+    /* flexbox */
+    display: flex;  
 }
 header > .smallwb {
     /* position & size */
@@ -31,17 +73,19 @@ header > .smallwb {
 }
 header > .smallrb{
     /* position & size */
+    position: relative;
     width: 60.47px;
     height: 68.55px;
-    left: 221px;
-    top: 161.07px;
+    top: 27.42px;
     background-color: #E82C4F;
 
     /* flexbox */
     flex-shrink: 0;     
 }
 .smallrb img {
-    align-self: center;
+    position: relative;
+    top: 17.59px;
+    left: 16.08px;
 }
 header > .warmups {
     /* position & size */
@@ -49,6 +93,7 @@ header > .warmups {
     height: 96px;
     left: 161.07px;
     top: 221px;
+    margin: 0px 40px;
 
     /* font */
     font-family: 'Bebas Neue', sans-serif;
@@ -94,10 +139,6 @@ header > .warmups {
     top: 781px;
     padding: 8px;
     gap: 80px;
-    
-    /* borderbox */
-    box-sizing: border-box;
-    border-style: solid;
     
     /* flexbox */
     display: flex;
@@ -147,9 +188,7 @@ footer > .clock {
     align-items: center;
 }
 
-
-
-
+/* RIGHT-CONTENT */
 .right-content > .wb {
     /* position & size */
     position: absolute;
